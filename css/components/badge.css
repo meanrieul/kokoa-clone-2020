@@ -1,0 +1,39 @@
+.badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: tomato;
+  width: 20px;
+  height: 20px;
+  color: white;
+  border-radius: 50%;
+  font-weight: 600;
+}
+
+.dot {
+  width: 6px;
+  height: 6px;
+  left: 30px;
+  bottom: 28px;
+}
+
+.dot__cog {
+  width: 6px;
+  height: 6px;
+  left: 20px;
+  bottom: 20px;
+}
+.badge-alert {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  border: 2px solid tomato;
+  color: tomato;
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 1px;
+  margin-left: 5px;
+}
